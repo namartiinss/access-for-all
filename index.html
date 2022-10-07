@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container_navbar">
+            <nav class="logo">
+                <img src="./img/logo.png" alt="Logotipo Access4all">
+            </nav>
+        </div>
+        <div class="container_header">
+            <div class="container_text">
+                <h2>Guia de acessibilidade<br>para Desenvolvedores</h2>
+                <p>De dev para dev, nós sabemos o que<br>precisamos!</p>
+            </div>
+            <div class="container_img">
+                <img src="./assets/accessibility.svg" alt="Icone de acessibilidade">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <div class="wrapper">
+                <h3>Acessibilidade web</h3>
+                <p>Acessibilidade é um tema que está em crescente desenvolvimento nos dias de hoje. Muitas pessoas
+                    adotaram
+                    o termo para descrever o design de sites para que todos possam usá-los de maneira fácil e
+                    confortável.
+                    Além disso, a acessibilidade na web refere-se a tornar os sites acessíveis a pessoas com
+                    deficiência. No
+                    entanto, a acessibilidade na web existe há anos, e só agora está se tornando um negócio maior graças
+                    a
+                    uma maior conscientização pública.
+                    As pessoas com deficiência precisam de acessibilidade na web, ter a capacidade de acessar e usar a
+                    Internet sem limitações, porque lhes dá acesso a ferramentas de informação e comunicação. Permitir
+                    que
+                    pessoas com deficiência usem a Internet lhes dá independência, controle e dignidade.
+                    Os desenvolvedores desempenham um papel importante em tornar a Internet acessível a todos. Cada
+                    página
+                    da web precisa de recursos de acessibilidade, como ampliação de texto, leitores de tela, legendas de
+                    imagens e muito mais. Além disso, os desenvolvedores devem sempre garantir que seus sites estejam
+                    acessíveis antes de permitir que os usuários os acessem. É importante fazer suposições sobre pessoas
+                    com
+                    deficiência ao criar versões acessíveis de sites. Infelizmente é uma área em que ainda há progresso
+                    a
+                    ser feito.
+                    Pessoas com dificuldades de aprendizagem ou distúrbios do desenvolvimento, como o autismo, muitas
+                    vezes
+                    têm dificuldade em usar a internet sem configurações de acessibilidade ativadas. Visto isso, há
+                    muitas
+                    maneiras de tornar o seu site acessível, e por isso criamos esse guia!</p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>Acesso rápido</h3>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">Por que um site deve ser acessível?</a></li>
+                        <li><a href="#">Tecnologias para acessibilidade</a></li>
+                        <li><a href="#">Boas práticas</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Especifique o idioma do seu site</a></li>
+                        <li><a href="#">Use a semântica do HTML5</a></li>
+                        <li><a href="#">Coloque âncoras no topo da página para as partes importantes do seu site</a>
+                        </li>
+                        <li><a href="#">coloque uma barra de acessibilidade no topo do site</a></li>
+                        <li><a href="#">Recursos de alto contraste</a></li>
+                        <li><a href="#">Possibilite uma navegação via teclado</a></li>
+                        <li><a href="#">Disponibilize o Vlibras no site</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">WCAG - Recomendações de acessibilidade para o conteúdo web</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#"><span>Perceptível:</span> o usuário deve poder perceber o conteúdo. Este não
+                                deve ser invisível para alguns sentidos.</a></li>
+                        <li><a href="#"><span>Operável:</span> o conteúdo deve ser acessível de forma que qualquer
+                                usuário possa interagir com ele.</a></li>
+                        <li><a href="#"><span>Compreensível:</span> toda a interface precisa ser intuitiva,
+                                compreensível.</a></li>
+                        <li><a href="#"><span>Robusto:</span> o conteúdo deve ser colocado de forma que qualquer usuário
+                                possa acessá-lo com qualquer tecnologia de acesso web.</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">WAI-ARIA - Começando em ARIA</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Apresentando ARIA</a></li>
+                        <li><a href="#">Aplicações Web e ARIA FAQ (en-US)</a></li>
+                        <li><a href="#">Vídeos de Leitores de Tela Utilizando ARIA</a></li>
+                        <li><a href="#">Usando ARIA com HTML</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">Ferramenta de acessibilidade</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Ferramentas para teste</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">Iniciativas para se acompanhar</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper_list">
+                    <ul>
+                        <li><a href="#">Onde encontrar mais conteúdos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>Por que um site deve ser acessível</h3>
+                <p>Ok, você me mostrou o que é acessibilidade. Mas porquê preciso me ater a isso? Como convenco meu
+                    chefe?
+                    <br>
+                    <br>
+                    Em primeiro lugar, existem as estatísticas. Segundo o censo do IBGE (Instituto Brasileiro de
+                    Geografia e Estatística), em 2010, há 45.606.048 de brasileiros, 23,9% da população total, com algum
+                    tipo de deficiência. Se formos para uma amplitude mundial, há mais de 650 milhoes de pessoas com
+                    alguns tipo de deficiência. Portanto, o conteúdo não ser acessível impede uma grande parcela da
+                    populacão de acessá-lo.
+                    <br>
+                    <br>
+                    Por fim, é lei. Segundo a <span>lei 13.146 de 2015</span>, a qualquer site de empresa com sede no
+                    Brasil e sites
+                    governamentais, é obrigatório ter boas práticas de acessibilidade.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>Quais as tecnologias para acessibilidade</h3>
+                <p><span>Leitor de tela</span> permite ao usuário com deficiência visual “ouvir” o conteúdo web que está
+                    na tela do dispositivo;
+                    <br>
+                    <br>
+                    <span>Navegador Textual</span> este tipo de navegador preza pelo carregamento somente de textos, não
+                    carregando imagens e conteúdos ilustrativos. Usado por deficientes visuais ou conexão lenta;
+                    <br>
+                    <br>
+                    <span>Display em Braile</span> este dispositivo de saída imprime textos em braile para deficientes
+                    visuais. A partir de circuitos eletrônicos e mecânicos, ele imprime as letras em um dispositivo
+                    tátil no sistema braile;
+                    <br>
+                    <br>
+                    <span>Navegador com voz</span> permite a navegação através de comandos de voz. Usado por pessoas com
+                    alguma incapacitação motora;
+                    <br>
+                    <br>
+                    <span>Ampliador de tela</span> são softwares que ampliem os textos na tela para pessoas com
+                    dificuldade de enxergar;
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>Quais são as boas práticas em desenvolvimento de sites</h3>
+                <p>
+                    <span>Especifique o idioma do seu site</span>
+                    <br>
+                    Use o atributo lang do HTML 5 na página, de preferência, no elemento html. Se caso, em alguma
+                    parte do site, houver um texto de linguagem diferente da linguagem principal, também especifique
+                    o idioma de leitura daquele texto.
+                    <br><br>
+                    <span>Use a semântica do HTML 5</span>
+                    <br>
+                    Alguns leitores de tela leem um parágrafo da seguinte forma: “paragrafo: [ texto que você colocou
+                    ]”. Ou seja, eles foram programados para entenderem a semântica HTML, portanto, não a negligencie!
+                    <br><br>
+                    <span>Coloque âncoras no topo da página para partes importantes do seu site</span>
+                    <br>
+                    Imagine um leitor de tela ter que ler cada menu e submenu da página em um site de notícias que o
+                    usuário entrou para uma notícia específica? Por isso, é importante colocar, no topo, um link para a
+                    parte mais importante do site, que no caso de um portal de notícia é a notícia principal.
+                    <br><br>
+                    <span>Coloque uma barra de acessibilidade no topo do site</span>
+                    <br>
+                    Itens que precisam estar lá: alto contraste (colocar o fundo preto com letras brancas) e recurso
+                    para aumenta ou diminuir a fonte. Esse recurso é muito comum encontrar em sites governamentais.
+                    <br><br>
+                    <span>Recurso de Alto Contraste </span>
+                    <br>
+                    Fundo preto, links geralmente amarelos, linhas brancas, e letras brancas. Este recurso é muito útil
+                    em cenários de alta luminosidade.
+                    <br><br>
+                    <span>Possibilite uma navegação via teclado</span>
+                    <br>
+                    Ofereça uma navegação via teclado, a partir de teclas de atalhos, por exemplo. Alguns leitores de
+                    tela já vem com algumas teclas de atalho importantes, como 'Vá para o conteúdo principal',
+                    'Visualizar links' entre outros.
+                    <br><br>
+                    <span>Verifique o contraste textual do seu site</span>
+                    <br>
+                    Há ferramentas interessantes, uma delas é o Check My Colours. O contraste é fundamental para a
+                    legibilidade.
+                    <br><br>
+                    <span>Coloque uma linguagem de sinais (libras) no site</span>
+                    <br>
+                    Segundo a Lei 10.436/2002, libras é a segunda língua oficial no Brasil e para muitos surdos é a
+                    única língua.
+                    <br><br>
+                    <span>Não dependa de cores!</span>
+                    <br>
+                    Assegure que a informação de um determinado elemento, como um link, não dependa cores. Por exemplo,
+                    um botão que seja verde indicando uma ação positiva, poderá não ser interpretado corretamente por um
+                    daltônico.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>WCAG - Recomendações de acessibilidade para o conteúdo web</h3>
+                <p>
+                    A <span> WCAG</span> é um conjunto de recomendações da W3C para que o conteúdo Web seja acessível.
+                    Ela tem como objetivo fornecer técnicas de codificação para que o conteúdo se torne acessível. Sua
+                    primeira versão, de 1999, já previa inúmeras técnicas. Atualmente, em 2019, estamos na versão WCAG
+                    2.1. Ela é dividida em:
+                    <br><br>
+                    <span>Princípios</span> são a base para a acessibilidade na Web;
+                    <br>
+                    <span>Diretrizes</span> são os 12 objetivos básicos sobre os princípios;
+                    <br>
+                    <span>Critérios de sucesso</span> para cada diretriz há critérios para as cumpri-las, que vão de A
+                    (mais baixo) a AAA (mais alto);
+                    <br>
+                    <span>Técnicas de tipo suficientes e aconselhadas suficientes</span> são as que já cumprem as
+                    diretrizes, porem as aconselhadas são as que vão além de inúmeras barreiras de acessibilidade;
+                    <br>
+                    <span>Perceptível:</span> o usuário deve poder perceber o conteúdo. Este, não pode ser invisível
+                    para alguns sentidos;
+                    <br><br>
+                    <span>Diretriz 1.1</span> – É necessário ter uma alternativa em texto
+                    <br>
+                    <span>Dica 1:</span> use o atributo alt nas imagens.
+                    <br>
+                    <span>Dica 2:</span> Coloque os links para uma página explicando os diagramas que tenham na página,
+                    por exemplo,
+                    se aquele diagrama veio de um pesquisa do IBGE, ou um texto próximo ao diagrama o explicando.
+                    <br>
+                    <span>Dica 3:</span> caso você tenha um formulário, basta indexar os inputs aos respectivos labels,
+                    ou colocar um
+                    title nos inputs caso ELES NÃO POSSUAM LABEL, ou para inputs tipo img, colocar um alt.
+                    <br>
+                    <span>Dica 4:</span> o elemento não textual que deve ser ignorado pelas tecnologias assistivas,
+                    basta inserí-lo
+                    via CSS. O exemplo abaixo é com uma imagem como background
+                    <br><br>
+                    <span>Diretriz 1.2</span> - conteúdo em áudio e vídeo
+                    <br>
+                    <span>Dica 1:</span> ofereça um texto alternativo, como uma transcrição do vídeo ou do áudio,
+                    próximo à mídia.
+                    Exemplo disso é o site de palestras TED.
+                    <br>
+                    <span>Dica 2:</span> como já exposto aqui, ofereça uma possibilidade de colocar linguagem de sinais.
+                    <br><br>
+                    <span>#Diretriz 1.3</span> – adaptável
+                    <br>
+                    <span>Dica 1:</span> use bastante a semântica HTML.
+                    <br>
+                    <span>Dica 2:</span> como já dito aqui e repito: não faça com que o conteúdo dependa da sua forma,
+                    cor ou
+                    qualquer característica que dependa da visão ou audicão.
+                    <br><br>
+                    <span>#Diretriz 1.4</span> – discernível
+                    <br>
+                    <span>Dica 1:</span> forneça formas para que o usuário possa modificar o tamanho das fontes
+                    <br>
+                    <span>Dica 2:</span> forneça formas para que o usuário dê alto contraste na página
+                    <br>
+                    <span>Dica 3:</span> caso o site tenha áudio automático, após 3 segundos o usuário deve ter uma
+                    forma de
+                    controlar este áudio
+                    <br>
+                    <span>Dica 4:</span> a página deve possuir um contraste para leitura.
+                    <br><br>
+                    <span>Operável:</span> o conteúdo deve ser acessível de forma que qualquer usuário possa interagir
+                    com ele
+                    <br><br>
+                    <span>Diretriz 2.1</span> – acessível via teclado
+                    <br>
+                    <span>Dica 1:</span> ofereça uma navegação alternativa via teclado. Lembre-se: link, por padrão, já
+                    recebem foco,
+                    botões também.
+                    <span>Dica 2: </span> não deixe que o usuário fique bloqueado na página devido a falta de um
+                    teclado.
+                    <br><br>
+                    <span>#Diretriz 2.2</span> – tempo suficiente: dê ao usuário tempo suficiente para navegar pela
+                    página e ler o
+                    conteúdo
+                    <br><br>
+                    <span>#Diretriz 2.3</span> – convulsões: não coloque elementos na página que pisquem mais de 3 vezes
+                    num segundo.
+                    Quem não se lembra do caso polêmico envolvendo o desenho animado Pokémon
+                    <br><br>
+                    <span>#Diretriz 2.4 </span> – tempo suficiente: dê ao usuário tempo suficiente para navegar pela
+                    página e ler o
+                    conteúdo
+                    <br>
+                    <span>Dica 1:</span> coloque um link no início da página para o conteúdo principal
+                    <br>
+                    <span>Dica 2:</span> utilize sempre cabeçalhos para estruturar os títulos das seções da página
+                    <br>
+                    <span>Dica 3:</span> crie uma sequência lógica entre os links da página
+                    <br>
+                    <span>Dica 4:</span> utilize breadcrumbs no topo da seção para que o usuário saiba onde está na
+                    página, ou num
+                    conjunto de páginas.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div id="text-wrapper">
+                    <h3>WAI-ARIA - Começando em ARIA</h3>
+                    <h4>Apresentando ARIA (en-US)</h4>
+                    <p>Uma rápida introdução sobre como tornar um conteúdo dinâmico acessível com ARIA: Veja, também, o
+                        clássico ARIA intro by Gez Lemon, de 2008.</p>
+                    <h4>Aplicações Web e ARIA FAQ (en-US)</h4>
+                    <p>Respostas às perguntas frequentes sobre WAI-ARIA e sobre por que é necessário tornar as
+                        aplicações web acessíveis.</p>
+                    <h4>Vídeos de Leitores de Tela Utilizando ARIA</h4>
+                    <p>Veja exemplos reais e simplificados de vídeos, por toda a web, que incluem o "antes" e o "depois"
+                        da acessibilidade.</p>
+                    <h4>Usando ARIA com HTML</h4>
+                    <p>Um guia prático para desenvolvedores. Traz sugestões sobre quais atributos ARIA usar com os
+                        elementos HTML. As sugestões são baseadas em realidades implementadas.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h3>Ferramentas de acessibilidade</h3>
+                <div id="wrapper_a">
+                    <ul>
+                        <li><a target="_blank" href="https://support.freedomscientific.com/Downloads/JAWS">JAWS</a></li>
+                        <li><a target="_blank" href="https://www.handtalk.me/br/">Hand Talk</a></li>
+                        <li><a target="_blank" href="https://www.gov.br/governodigital/pt-br/vlibras">Vlibras</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container_grid">
+        <section>
+            <div class="grid">
+                <h3>Use o Vlibras</h3>
+                <div class="grid-texts">
+                    <p>Para Navegadores</p>
+                </div>
+                <div class="container_cards">
+                    <div class="cards">
+                        <img src="./assets/chrome.svg" alt="Icone navegador google chrome">
+                        <a target="_blank" href="https://chrome.google.com/webstore/search/VLibras?hl=pt-BR">Plugin
+                            Google chrome</a>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/firefox.svg" alt="Icone navegador Firefox">
+                        <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/vlibras-plugin/">Plugin
+                            Firefox</a>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/puzzle.svg" alt="Icone quebra cabeça simbolizando widget">
+                        <a target="_blank"
+                            href="https://vlibras.gov.br/doc/widget/index.html?_ga=2.124501391.401183837.1665021809-1892157276.1665021809">Instalação
+                            widget</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid">
+                <div class="grid-texts">
+                    <p>Para computadores</p>
+                </div>
+                <div class="container_cards">
+                    <div class="cards">
+                        <img src="./assets/windows.svg" alt="Icone sistema operacional windows">
+                        <a target="_blank"
+                            href="https://vlibras.gov.br/files/desktop/vlibras_instalador_6.0.0.exe?_ga=2.65148331.401183837.1665021809-1892157276.1665021809">Windous
+                            (7 ou superior)</a>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/tomada.svg" alt="Icone addon vlibras nvda">
+                        <a target="_blank"
+                            href="https://vlibras.gov.br/files/vlibras-1.0.0-170220.1540.nvda-addon?_ga=2.61452457.401183837.1665021809-1892157276.1665021809">Addon
+                            VLibras NVDA</a>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/linux.svg" alt="Icone Sistema operacional Linux">
+                        <a target="_blank" href="https://vlibras.gov.br/doc/linux/index.html">Linux (64 bits)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid">
+                <div class="grid-texts">
+                    <p>Para Smartphones e tablets</p>
+                </div>
+                <div class="container_cards" id="cards_duo">
+                    <div class="cards">
+                        <img src="./assets/android.svg" alt="Icone sistema operacional Android">
+                        <a target="_blank" href="https://chrome.google.com/webstore/search/VLibras?hl=pt-BR">App
+                            Android</a>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/ios.svg" alt="Icone Sistema operacional IOS">
+                        <a target="_blank" href="https://apps.apple.com/br/app/vlibras/id1039641615">App IOS</a>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="container">
+        <div class="forms_content">
+            <div class="forms_text">
+                <h3>Formulário para desenvolvedores</h3>
+            </div>
+            <div class="forms">
+                <div class="forms__text">
+                    <img src="./assets/forms.svg" alt="Icone de acessibilidade com fundo azul claro">
+                    <p>Deixe sua ideia ou dúvida para que possamos implementar no site</p>
+                </div>
+                <div class="input">
+                    <input id="email" type="email" name="email" placeholder="Digite seu email">
+                    <input id="text" type="text" placeholder="Assunto">
+                    <textarea name="character" id="txtCharacter" cols="30" rows="10"
+                        placeholder="Digite sua mensagem"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container_footer">
+        <img src="./assets/logo.svg" alt="Logotipo da Access for all">
+        <h5>©2022 travelergulliver.com.br | Todos os direitos reservados</h5>
+    </footer>
+</body>
+
+</html>
