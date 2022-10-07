@@ -295,3 +295,7 @@ span {
     line-height: 24px;
     color: #FFFFFF;
 }
+
+.access-button {
+    border-radius: 50px;
+}
